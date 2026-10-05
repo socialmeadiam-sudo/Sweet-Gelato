@@ -1,0 +1,2876 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Gelato | Ice Cream in Abuzar Ghaffari Colony, Karachi</title>
+    <meta name="description" content="Sweet Gelato in Abuzar Ghaffari Colony, Karachi. Explore ice cream flavors, scoops, cones and ice cream-focused products.">
+    
+    <meta property="og:title" content="Sweet Gelato | Ice Cream in Abuzar Ghaffari Colony, Karachi">
+    <meta property="og:description" content="Sweet Gelato in Abuzar Ghaffari Colony, Karachi. Explore ice cream flavors, scoops, cones and ice cream-focused products.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-base: #fdf9f3;
+            --bg-soft: #f7efe2;
+            --bg-elevated: #ffffff;
+            --bg-dark: #1e3d34;
+            --bg-dark-2: #163029;
+            --bg-card: #ffffff;
+            
+            --mint: #4a9d83;
+            --mint-light: #6dbfa4;
+            --mint-dark: #35725f;
+            --mint-glow: rgba(74, 157, 131, 0.25);
+            
+            --coral: #ff7a5c;
+            --coral-light: #ff9d85;
+            --coral-dark: #e05c3e;
+            --coral-glow: rgba(255, 122, 92, 0.3);
+            
+            --cream: #fdf9f3;
+            --cream-dark: #f5ead8;
+            
+            --yellow: #f5c869;
+            --yellow-light: #fce0a1;
+            
+            --text-dark: #1e3d34;
+            --text-main: #2e4a3f;
+            --text-muted: #6b8078;
+            --text-light: #a3b5ad;
+            
+            --border: #ece0cd;
+            --border-soft: #f2e9d9;
+            
+            --shadow-xs: 0 2px 8px rgba(30, 61, 52, 0.04);
+            --shadow-sm: 0 4px 16px rgba(30, 61, 52, 0.06);
+            --shadow-md: 0 12px 32px rgba(30, 61, 52, 0.10);
+            --shadow-lg: 0 24px 60px rgba(30, 61, 52, 0.14);
+            --shadow-coral: 0 12px 36px rgba(255, 122, 92, 0.3);
+            --shadow-mint: 0 12px 36px rgba(74, 157, 131, 0.3);
+            
+            --radius-sm: 10px;
+            --radius: 18px;
+            --radius-lg: 26px;
+            --radius-xl: 36px;
+            --radius-pill: 999px;
+            
+            --font-heading: 'Fraunces', Georgia, serif;
+            --font-body: 'Outfit', system-ui, sans-serif;
+            
+            --transition: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            scroll-padding-top: 100px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            line-height: 1.65;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            color: var(--text-dark);
+            font-weight: 600;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        ul { list-style: none; }
+        a { text-decoration: none; color: inherit; transition: var(--transition); }
+        img { max-width: 100%; height: auto; display: block; }
+        button { cursor: pointer; border: none; background: none; font-family: inherit; transition: var(--transition); }
+
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.75rem;
+        }
+
+        .section {
+            padding: 6rem 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto 4rem;
+        }
+
+        .section-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(74, 157, 131, 0.1);
+            border: 1px solid rgba(74, 157, 131, 0.25);
+            color: var(--mint-dark);
+            padding: 0.5rem 1.15rem;
+            border-radius: var(--radius-pill);
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            margin-bottom: 1.25rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.85rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .section-header h2 .accent {
+            color: var(--coral);
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.75;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.55rem;
+            padding: 15px 32px;
+            border-radius: var(--radius-pill);
+            font-weight: 600;
+            font-size: 0.92rem;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 1.5px solid transparent;
+            text-align: center;
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+        }
+
+        .btn-coral {
+            background: linear-gradient(135deg, var(--coral) 0%, var(--coral-dark) 100%);
+            color: #ffffff;
+            box-shadow: var(--shadow-coral);
+        }
+
+        .btn-coral:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 18px 48px rgba(255, 122, 92, 0.45);
+        }
+
+        .btn-mint {
+            background: linear-gradient(135deg, var(--mint) 0%, var(--mint-dark) 100%);
+            color: #ffffff;
+            box-shadow: var(--shadow-mint);
+        }
+
+        .btn-mint:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 18px 48px rgba(74, 157, 131, 0.45);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text-dark);
+            border-color: var(--mint);
+        }
+
+        .btn-outline:hover {
+            background: var(--mint);
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+
+        .btn-white {
+            background: #ffffff;
+            color: var(--coral);
+            box-shadow: 0 12px 32px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-white:hover {
+            background: var(--cream);
+            transform: translateY(-3px);
+        }
+
+        /* NAVBAR */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(253, 249, 243, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid transparent;
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            background: rgba(253, 249, 243, 0.98);
+            border-bottom-color: var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 88px;
+        }
+
+        .brand-logo {
+            font-family: var(--font-heading);
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-mark {
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--coral) 0%, var(--coral-dark) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow-coral);
+            flex-shrink: 0;
+            animation: float-badge 4s ease-in-out infinite;
+        }
+
+        @keyframes float-badge {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-4px) rotate(4deg); }
+        }
+
+        .brand-logo span {
+            color: var(--coral);
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            font-weight: 600;
+            font-size: 0.88rem;
+            color: var(--text-main);
+            position: relative;
+            padding: 0.4rem 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--coral), var(--mint));
+            border-radius: 2px;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--coral);
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            width: 44px;
+            height: 44px;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-dark);
+        }
+
+        .hamburger:hover {
+            border-color: var(--coral);
+            color: var(--coral);
+        }
+
+        /* HERO */
+        .hero {
+            padding: 150px 0 100px;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            background: 
+                radial-gradient(ellipse at 20% 20%, rgba(255, 122, 92, 0.1) 0%, transparent 55%),
+                radial-gradient(ellipse at 85% 80%, rgba(74, 157, 131, 0.08) 0%, transparent 55%),
+                var(--bg-base);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(74, 157, 131, 0.06) 1px, transparent 0);
+            background-size: 40px 40px;
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.05fr 0.95fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-location {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-dark);
+            padding: 0.6rem 1.25rem;
+            border-radius: var(--radius-pill);
+            font-weight: 600;
+            font-size: 0.82rem;
+            margin-bottom: 1.75rem;
+            box-shadow: var(--shadow-xs);
+        }
+
+        .hero-location i {
+            color: var(--coral);
+        }
+
+        .hero-content h1 {
+            font-size: 4rem;
+            line-height: 1.05;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .hero-content h1 .accent {
+            color: var(--coral);
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 2.25rem;
+            max-width: 540px;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.75rem;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .hero-stat h3 {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--coral);
+            margin-bottom: 0.2rem;
+        }
+
+        .hero-stat p {
+            font-size: 0.72rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+        }
+
+        .hero-image-card {
+            border-radius: 180px 180px var(--radius-xl) var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            background: var(--bg-elevated);
+            border: 10px solid #ffffff;
+            position: relative;
+            aspect-ratio: 4/5;
+        }
+
+        .hero-image-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s ease;
+        }
+
+        .hero-image-card:hover img {
+            transform: scale(1.04);
+        }
+
+        .floating-badge {
+            position: absolute;
+            bottom: 20px;
+            left: -30px;
+            background: var(--bg-elevated);
+            padding: 1.15rem 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            border: 1px solid var(--border);
+            animation: float 4s ease-in-out infinite;
+            z-index: 3;
+        }
+
+        .floating-badge-2 {
+            position: absolute;
+            top: 30px;
+            right: -30px;
+            background: var(--bg-elevated);
+            padding: 1.15rem 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            border: 1px solid var(--border);
+            animation: float 4s ease-in-out infinite;
+            animation-delay: 2s;
+            z-index: 3;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .badge-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+            background: rgba(255, 122, 92, 0.12);
+            color: var(--coral);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+
+        .badge-icon.mint {
+            background: rgba(74, 157, 131, 0.12);
+            color: var(--mint);
+        }
+
+        .badge-text h4 {
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            font-family: var(--font-body);
+            font-weight: 700;
+            margin-bottom: 0.15rem;
+        }
+
+        .badge-text p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        /* MARQUEE */
+        .marquee {
+            background: var(--bg-dark);
+            color: #ffffff;
+            padding: 1.4rem 0;
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .marquee-track {
+            display: flex;
+            gap: 4rem;
+            animation: marquee-scroll 40s linear infinite;
+            width: max-content;
+        }
+
+        @keyframes marquee-scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .marquee-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-family: var(--font-heading);
+            font-size: 0.95rem;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            white-space: nowrap;
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .marquee-item i {
+            color: var(--yellow);
+            font-size: 0.9rem;
+        }
+
+        /* ABOUT */
+        .about {
+            background: var(--bg-elevated);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .about-image {
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            aspect-ratio: 4/5;
+            position: relative;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .about-image::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: var(--radius-xl);
+            margin: 16px;
+            pointer-events: none;
+        }
+
+        .about-content h2 {
+            font-size: 2.75rem;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .about-content h2 .accent {
+            color: var(--coral);
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .about-content p {
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-size: 1.02rem;
+            line-height: 1.8;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        .about-feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.9rem;
+            padding: 1.15rem;
+            background: var(--bg-base);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            transition: var(--transition);
+        }
+
+        .about-feature-item:hover {
+            border-color: var(--coral);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .feature-check {
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        .about-feature-item h4 {
+            font-size: 0.92rem;
+            margin-bottom: 0.25rem;
+            font-family: var(--font-body);
+            font-weight: 700;
+        }
+
+        .about-feature-item p {
+            font-size: 0.8rem;
+            margin: 0;
+            color: var(--text-muted);
+        }
+
+        /* FLAVORS */
+        .flavors {
+            background: var(--bg-base);
+        }
+
+        .flavors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .flavor-card {
+            background: var(--bg-elevated);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-xs);
+            transition: var(--transition);
+            border: 1px solid var(--border-soft);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .flavor-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--coral), var(--yellow), var(--mint));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+            z-index: 5;
+        }
+
+        .flavor-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .flavor-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: transparent;
+        }
+
+        .flavor-img-container {
+            height: 240px;
+            overflow: hidden;
+            position: relative;
+            background: var(--cream);
+        }
+
+        .flavor-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .flavor-card:hover .flavor-img-container img {
+            transform: scale(1.08);
+        }
+
+        .flavor-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            padding: 0.4rem 0.9rem;
+            border-radius: var(--radius-pill);
+            font-size: 0.68rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: var(--shadow-xs);
+        }
+
+        .flavor-info {
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+        .flavor-info h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.6rem;
+            font-weight: 600;
+        }
+
+        .flavor-info p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .flavor-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid var(--border-soft);
+            padding-top: 1rem;
+        }
+
+        .flavor-note {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--mint-dark);
+        }
+
+        /* PRODUCTS */
+        .products {
+            background: var(--bg-soft);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: var(--bg-elevated);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-xs);
+            transition: var(--transition);
+            border: 1px solid var(--border-soft);
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--coral);
+        }
+
+        .product-img {
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .product-card:hover .product-img img {
+            transform: scale(1.08);
+        }
+
+        .product-content {
+            padding: 2rem;
+        }
+
+        .product-content h3 {
+            font-size: 1.45rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .product-content p {
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            line-height: 1.7;
+        }
+
+        /* EXPERIENCE */
+        .experience {
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark-2) 100%);
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .experience::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255, 122, 92, 0.15), transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .experience .section-tag {
+            background: rgba(255, 122, 92, 0.15);
+            border-color: rgba(255, 122, 92, 0.3);
+            color: var(--coral-light);
+        }
+
+        .experience .section-header h2 {
+            color: #ffffff;
+        }
+
+        .experience .section-header h2 .accent {
+            color: var(--coral-light);
+        }
+
+        .experience .section-header p {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.75rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .experience-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2.5rem 2rem;
+            border-radius: var(--radius-lg);
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+        }
+
+        .experience-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-6px);
+            border-color: rgba(255, 122, 92, 0.4);
+        }
+
+        .exp-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 1.25rem;
+            border-radius: 18px;
+            background: linear-gradient(135deg, rgba(255, 122, 92, 0.2), rgba(74, 157, 131, 0.1));
+            border: 1px solid rgba(255, 122, 92, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.7rem;
+            transition: var(--transition);
+        }
+
+        .experience-card:hover .exp-icon {
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            transform: scale(1.1) rotate(-8deg);
+            box-shadow: var(--shadow-coral);
+        }
+
+        .experience-card h3 {
+            color: #ffffff;
+            font-size: 1.2rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .experience-card p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        /* BUILDER */
+        .builder {
+            background: var(--bg-base);
+        }
+
+        .builder-wrapper {
+            background: var(--bg-elevated);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+            padding: 3rem;
+            border: 1px solid var(--border);
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .builder-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, var(--coral), var(--yellow), var(--mint));
+        }
+
+        .builder-controls h3 {
+            font-size: 1.85rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .builder-controls > p {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .builder-group {
+            margin-bottom: 1.85rem;
+        }
+
+        .builder-group label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 0.85rem;
+            color: var(--text-dark);
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .options-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        .option-btn {
+            background: var(--bg-base);
+            border: 1.5px solid var(--border);
+            padding: 0.6rem 1.25rem;
+            border-radius: var(--radius-pill);
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: var(--transition);
+            color: var(--text-main);
+        }
+
+        .option-btn:hover {
+            border-color: var(--coral);
+            color: var(--coral);
+            transform: translateY(-2px);
+        }
+
+        .option-btn.active {
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            border-color: transparent;
+            color: #ffffff;
+            box-shadow: var(--shadow-coral);
+        }
+
+        .builder-preview {
+            background: linear-gradient(135deg, rgba(255, 122, 92, 0.08) 0%, rgba(74, 157, 131, 0.05) 100%);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem;
+            text-align: center;
+            border: 2px dashed rgba(255, 122, 92, 0.35);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
+        }
+
+        .preview-title {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .preview-display-card {
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: var(--radius);
+            width: 100%;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .preview-item {
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-soft);
+            padding-bottom: 0.85rem;
+        }
+
+        .preview-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .preview-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .preview-value {
+            font-weight: 700;
+            color: var(--coral);
+            font-size: 1rem;
+            font-family: var(--font-heading);
+        }
+
+        /* GALLERY */
+        .gallery {
+            background: var(--bg-elevated);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            cursor: pointer;
+            position: relative;
+            box-shadow: var(--shadow-xs);
+            border: 1px solid var(--border-soft);
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--coral);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(30, 61, 52, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-overlay span {
+            color: white;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            padding: 0.6rem 1.35rem;
+            border-radius: var(--radius-pill);
+            font-size: 0.85rem;
+            transform: translateY(10px);
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover .gallery-overlay span {
+            transform: translateY(0);
+        }
+
+        /* LIGHTBOX */
+        .lightbox-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(30, 61, 52, 0.96);
+            backdrop-filter: blur(10px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition);
+            padding: 2rem;
+        }
+
+        .lightbox-modal.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 900px;
+            width: 100%;
+            max-height: 85vh;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+        }
+
+        .lightbox-content img {
+            width: 100%;
+            max-height: 80vh;
+            object-fit: contain;
+            background: #000;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #ffffff;
+            border: none;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            font-size: 1.4rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2010;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            color: var(--text-dark);
+        }
+
+        .lightbox-close:hover {
+            background: var(--coral);
+            color: #ffffff;
+            transform: rotate(90deg);
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #ffffff;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            z-index: 2010;
+            color: var(--text-dark);
+        }
+
+        .lightbox-nav:hover {
+            background: var(--coral);
+            color: #ffffff;
+        }
+
+        .lightbox-prev { left: 20px; }
+        .lightbox-next { right: 20px; }
+
+        /* WHY US */
+        .why {
+            background: var(--bg-base);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.75rem;
+        }
+
+        .why-card {
+            background: var(--bg-elevated);
+            padding: 2.5rem 2rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-xs);
+            border: 1px solid var(--border-soft);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .why-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--coral), var(--mint));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .why-card:hover::after {
+            transform: scaleX(1);
+        }
+
+        .why-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: transparent;
+        }
+
+        .why-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, rgba(255, 122, 92, 0.12), rgba(74, 157, 131, 0.06));
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.35rem;
+            transition: var(--transition);
+        }
+
+        .why-card:hover .why-icon {
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            transform: scale(1.08) rotate(-6deg);
+            box-shadow: var(--shadow-coral);
+        }
+
+        .why-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.7rem;
+            font-weight: 600;
+        }
+
+        .why-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        /* FAQ */
+        .faq {
+            background: var(--bg-soft);
+        }
+
+        .faq-container {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-soft);
+            border-radius: var(--radius);
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-item.active {
+            border-color: var(--coral);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .faq-question {
+            padding: 1.4rem 1.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.02rem;
+            color: var(--text-dark);
+            font-family: var(--font-heading);
+            gap: 1rem;
+        }
+
+        .faq-question:hover {
+            color: var(--coral);
+        }
+
+        .faq-icon-toggle {
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 122, 92, 0.1);
+            color: var(--coral);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            font-weight: 700;
+        }
+
+        .faq-item.active .faq-icon-toggle {
+            transform: rotate(45deg);
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            color: white;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease, padding 0.35s ease;
+            padding: 0 1.75rem;
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            line-height: 1.75;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 250px;
+            padding: 0 1.75rem 1.5rem;
+        }
+
+        /* CONTACT (STRICTLY ZERO IMAGES) */
+        .contact {
+            background: var(--bg-base);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 3rem;
+            align-items: start;
+        }
+
+        .contact-info-card {
+            background: var(--bg-elevated);
+            padding: 3rem;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-info-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, var(--coral), var(--mint));
+        }
+
+        .contact-info-card h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .contact-info-card > p {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .info-item-group {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.25rem;
+            padding: 1.15rem;
+            background: var(--bg-base);
+            border: 1px solid var(--border-soft);
+            border-radius: var(--radius);
+            transition: var(--transition);
+        }
+
+        .info-row:hover {
+            border-color: var(--coral);
+            transform: translateX(6px);
+        }
+
+        .info-icon-box {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, rgba(255, 122, 92, 0.15), rgba(74, 157, 131, 0.08));
+            color: var(--coral);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+
+        .info-row:hover .info-icon-box {
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            color: #ffffff;
+            transform: scale(1.05) rotate(-5deg);
+        }
+
+        .info-row h4 {
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+            font-family: var(--font-body);
+            font-weight: 700;
+        }
+
+        .info-row p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .info-row a {
+            color: var(--coral);
+            font-weight: 600;
+        }
+
+        .info-row a:hover {
+            color: var(--coral-dark);
+        }
+
+        /* INQUIRY FORM */
+        .inquiry-form-card {
+            background: var(--bg-elevated);
+            padding: 3rem;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .inquiry-form-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, var(--mint), var(--coral));
+        }
+
+        .inquiry-form-card h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .inquiry-form-card > p {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.35rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.8rem;
+            margin-bottom: 0.55rem;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.9rem 1.15rem;
+            background: var(--bg-base);
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-family: inherit;
+            font-size: 0.95rem;
+            color: var(--text-main);
+            transition: var(--transition);
+            outline: none;
+        }
+
+        .form-control::placeholder {
+            color: var(--text-light);
+        }
+
+        .form-control:focus {
+            border-color: var(--coral);
+            background: #ffffff;
+            box-shadow: 0 0 0 4px rgba(255, 122, 92, 0.1);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 110px;
+        }
+
+        .form-message {
+            margin-top: 1rem;
+            padding: 1rem 1.15rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .form-message.success {
+            display: block;
+            background-color: #E6F4EA;
+            color: #137333;
+            border: 1px solid #CEEAD6;
+        }
+
+        /* CTA */
+        .cta {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--coral) 0%, var(--coral-dark) 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .cta-content {
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-content h2 {
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta-content h2 .accent {
+            color: var(--yellow-light);
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .cta-content p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: var(--bg-dark);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 5rem 0 2rem;
+            position: relative;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--coral), var(--yellow), var(--mint));
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3.5rem;
+        }
+
+        .footer-brand .brand-logo {
+            color: #ffffff;
+            margin-bottom: 1.25rem;
+        }
+
+        .footer-brand p {
+            font-size: 0.92rem;
+            max-width: 340px;
+            margin-bottom: 1.5rem;
+            color: rgba(255, 255, 255, 0.65);
+            line-height: 1.7;
+        }
+
+        .footer-location-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 0.55rem 1.15rem;
+            border-radius: var(--radius-pill);
+            font-size: 0.82rem;
+            color: #ffffff;
+        }
+
+        .footer-links h4 {
+            color: #ffffff;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: var(--font-body);
+            font-weight: 700;
+        }
+
+        .footer-links ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.65);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--coral-light);
+            padding-left: 5px;
+        }
+
+        .footer-links a i {
+            font-size: 0.7rem;
+            color: var(--coral);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* BACK TO TOP */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--coral), var(--coral-dark));
+            color: white;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition);
+            z-index: 999;
+            box-shadow: var(--shadow-coral);
+            border: none;
+            font-size: 1.1rem;
+        }
+
+        .back-to-top.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .back-to-top:hover {
+            background: linear-gradient(135deg, var(--mint), var(--mint-dark));
+            transform: translateY(-5px);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 992px) {
+            .hero-grid,
+            .about-grid,
+            .builder-wrapper,
+            .contact-grid,
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .hero {
+                padding: 130px 0 70px;
+                min-height: auto;
+                text-align: center;
+            }
+
+            .hero-content p {
+                margin: 0 auto 2rem;
+            }
+
+            .hero-buttons,
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .hero-location {
+                margin: 0 auto 1.75rem;
+            }
+
+            .hero-image-wrapper {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            .about-content {
+                text-align: center;
+            }
+
+            .about-features {
+                text-align: left;
+            }
+
+            .floating-badge,
+            .floating-badge-2 {
+                display: none;
+            }
+
+            .section-header h2 {
+                font-size: 2.25rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 88px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 88px);
+                background: var(--bg-elevated);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                transition: left 0.4s ease;
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+                border-top: 1px solid var(--border);
+            }
+
+            .nav-links.active {
+                left: 0;
+            }
+
+            .nav-links a {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1.25rem;
+            }
+
+            .section {
+                padding: 4rem 0;
+            }
+
+            .section-header {
+                margin-bottom: 2.5rem;
+            }
+
+            .section-header h2 {
+                font-size: 1.95rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .hero-buttons .btn {
+                width: 100%;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
+                flex-wrap: wrap;
+            }
+
+            .builder-wrapper,
+            .contact-info-card,
+            .inquiry-form-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .builder-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-content h2 {
+                font-size: 2.2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .cta-buttons .btn {
+                width: 100%;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .lightbox-nav {
+                width: 42px;
+                height: 42px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .brand-logo {
+                font-size: 1.25rem;
+            }
+
+            .brand-mark {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2.1rem;
+            }
+
+            .section-header h2 {
+                font-size: 1.7rem;
+            }
+
+            .floating-badge {
+                display: none;
+            }
+
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+
+            .preview-display-card {
+                padding: 1.5rem 1.25rem;
+            }
+
+            .btn {
+                padding: 13px 24px;
+                font-size: 0.88rem;
+            }
+        }
+
+        ::selection {
+            background: var(--coral);
+            color: #ffffff;
+        }
+
+        :focus-visible {
+            outline: 3px solid var(--coral);
+            outline-offset: 3px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="brand-logo">
+                <div class="brand-mark">🍦</div>
+                Sweet <span>Gelato</span>
+            </a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#flavors">Flavors</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-location">
+                        <i class="fa-solid fa-location-dot">📍</i>
+                        Abuzar Ghaffari Colony, Karachi, Pakistan
+                    </div>
+                    <h1>Sweet Gelato — A Cooler Way to Enjoy <span class="accent">Ice Cream</span></h1>
+                    <p>Indulge in premium handcrafted ice cream scoops, delicious cones, and refreshing sweet moments designed for true ice cream lovers.</p>
+                    <div class="hero-buttons">
+                        <a href="#flavors" class="btn btn-coral">Explore Flavors</a>
+                        <a href="#contact" class="btn btn-outline">Contact Us</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <h3>20+</h3>
+                            <p>Flavors</p>
+                        </div>
+                        <div class="hero-stat">
+                            <h3>100%</h3>
+                            <p>Fresh Daily</p>
+                        </div>
+                        <div class="hero-stat">
+                            <h3>1000+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="Colorful ice cream scoops and cones">
+                    </div>
+                    <div class="floating-badge">
+                        <div class="badge-icon">🍨</div>
+                        <div class="badge-text">
+                            <h4>Freshly Prepared</h4>
+                            <p>Daily Ice Cream Joy</p>
+                        </div>
+                    </div>
+                    <div class="floating-badge-2">
+                        <div class="badge-icon mint">✨</div>
+                        <div class="badge-text">
+                            <h4>Premium Quality</h4>
+                            <p>Handcrafted Treats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <div class="marquee-item"><i>🍦</i> Premium Gelato</div>
+            <div class="marquee-item"><i>🍨</i> Ice Cream Scoops</div>
+            <div class="marquee-item"><i>🍧</i> Delicious Sundaes</div>
+            <div class="marquee-item"><i>🍫</i> Chocolate Flavors</div>
+            <div class="marquee-item"><i>🥭</i> Fresh Mango</div>
+            <div class="marquee-item"><i>🍓</i> Strawberry Delight</div>
+            <div class="marquee-item"><i>🍦</i> Premium Gelato</div>
+            <div class="marquee-item"><i>🍨</i> Ice Cream Scoops</div>
+            <div class="marquee-item"><i>🍧</i> Delicious Sundaes</div>
+            <div class="marquee-item"><i>🍫</i> Chocolate Flavors</div>
+            <div class="marquee-item"><i>🥭</i> Fresh Mango</div>
+            <div class="marquee-item"><i>🍓</i> Strawberry Delight</div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80" alt="Scooping premium vanilla and chocolate ice cream">
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">About Sweet Gelato</span>
+                    <h2>Crafting Sweet Moments <span class="accent">With Every Scoop</span></h2>
+                    <p>Located in the heart of Abuzar Ghaffari Colony, Karachi, Sweet Gelato is dedicated entirely to the art and joy of exceptional ice cream. From classic favorites to rich specialty creations, we bring people together over delightful scoops, crunchy cones, and creamy treats.</p>
+                    <p>We pride ourselves on offering a vibrant variety of flavors, flawless presentation, and a warm experience for every ice cream enthusiast who walks through our doors.</p>
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="feature-check">✓</div>
+                            <div>
+                                <h4>Rich Flavor Variety</h4>
+                                <p>From fruity to chocolaty</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-item">
+                            <div class="feature-check">✓</div>
+                            <div>
+                                <h4>Premium Presentation</h4>
+                                <p>Scoops, cups & sundaes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLAVORS -->
+    <section class="section flavors" id="flavors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Flavor Collection</span>
+                <h2>Discover Our <span class="accent">Ice Cream Flavors</span></h2>
+                <p>Explore our wide selection of delicious ice cream flavors prepared to satisfy your sweet cravings.</p>
+            </div>
+            <div class="flavors-grid">
+                <div class="flavor-card">
+                    <div class="flavor-img-container">
+                        <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=600&q=80" alt="Vanilla ice cream">
+                        <span class="flavor-badge">Classic</span>
+                    </div>
+                    <div class="flavor-info">
+                        <div>
+                            <h3>Vanilla Ice Cream</h3>
+                            <p>Smooth, creamy, and made with rich vanilla goodness for a timeless treat.</p>
+                        </div>
+                        <div class="flavor-footer">
+                            <span class="flavor-note">Scoops & Cones</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavor-card">
+                    <div class="flavor-img-container">
+                        <img src="https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=600&q=80" alt="Mango ice cream">
+                        <span class="flavor-badge">Tropical</span>
+                    </div>
+                    <div class="flavor-info">
+                        <div>
+                            <h3>Mango Ice Cream</h3>
+                            <p>Luscious and smooth tropical mango ice cream capturing pure summer sunshine.</p>
+                        </div>
+                        <div class="flavor-footer">
+                            <span class="flavor-note">Scoops & Cups</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavor-card">
+                    <div class="flavor-img-container">
+                        <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80" alt="Pistachio ice cream">
+                        <span class="flavor-badge">Nutty</span>
+                    </div>
+                    <div class="flavor-info">
+                        <div>
+                            <h3>Pistachio Ice Cream</h3>
+                            <p>Delicately nutty and creamy pistachio flavor with a wonderful rich aroma.</p>
+                        </div>
+                        <div class="flavor-footer">
+                            <span class="flavor-note">Cones & Sundaes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavor-card">
+                    <div class="flavor-img-container">
+                        <img src="https://images.unsplash.com/photo-1516559828984-fb3b99548b21?auto=format&fit=crop&w=600&q=80" alt="Coffee ice cream">
+                        <span class="flavor-badge">Bold</span>
+                    </div>
+                    <div class="flavor-info">
+                        <div>
+                            <h3>Coffee Ice Cream</h3>
+                            <p>A rich, creamy infusion of robust coffee flavor for a sophisticated treat.</p>
+                        </div>
+                        <div class="flavor-footer">
+                            <span class="flavor-note">Scoops & Cones</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavor-card">
+                    <div class="flavor-img-container">
+                        <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80" alt="Caramel ice cream">
+                        <span class="flavor-badge">Sweet</span>
+                    </div>
+                    <div class="flavor-info">
+                        <div>
+                            <h3>Caramel Ice Cream</h3>
+                            <p>Smooth, buttery caramel blended into creamy ice cream perfection.</p>
+                        </div>
+                        <div class="flavor-footer">
+                            <span class="flavor-note">Sundaes & Cups</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavor-card">
+                    <div class="flavor-img-container">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80" alt="Cookies and cream ice cream">
+                        <span class="flavor-badge">Crunchy</span>
+                    </div>
+                    <div class="flavor-info">
+                        <div>
+                            <h3>Cookies & Cream</h3>
+                            <p>Crunchy chocolate cookie bits folded into rich, creamy vanilla ice cream.</p>
+                        </div>
+                        <div class="flavor-footer">
+                            <span class="flavor-note">Scoops & Cones</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Offerings</span>
+                <h2>Ice Cream Products & <span class="accent">Services</span></h2>
+                <p>Choose how you want to enjoy your favorite ice cream at Sweet Gelato.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80" alt="Ice cream scoops">
+                    </div>
+                    <div class="product-content">
+                        <h3>Ice Cream Scoops</h3>
+                        <p>Generous, perfectly rounded scoops of your favorite creamy flavors served fresh.</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80" alt="Sundaes">
+                    </div>
+                    <div class="product-content">
+                        <h3>Sundaes</h3>
+                        <p>Layered ice cream masterpieces topped with syrups, nuts, and sweet garnishes.</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=600&q=80" alt="Ice cream toppings">
+                    </div>
+                    <div class="product-content">
+                        <h3>Ice Cream Toppings</h3>
+                        <p>Enhance your treat with chocolate drizzle, sprinkles, crushed nuts, and cookie crumbles.</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=600&q=80" alt="Ice cream takeaway">
+                    </div>
+                    <div class="product-content">
+                        <h3>Ice Cream Takeaway</h3>
+                        <p>Take your favorite flavors home with our convenient ice cream takeaway packaging.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Made for Ice Cream Lovers</span>
+                <h2>The Ultimate <span class="accent">Ice Cream Experience</span></h2>
+                <p>Everything we do is crafted around delivering moments of pure frozen joy.</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="exp-icon">🍦</div>
+                    <h3>Variety of Flavors</h3>
+                    <p>An extensive selection of classic and specialty ice cream flavors.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-icon">✨</div>
+                    <h3>Delicious Moments</h3>
+                    <p>Creating sweet memories with every scoop served.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-icon">🍨</div>
+                    <h3>Attractive Presentation</h3>
+                    <p>Beautifully served cones, cups, and sundaes.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-icon">💬</div>
+                    <h3>Easy Inquiry</h3>
+                    <p>Simple ways to ask about your favorite ice cream options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUILDER -->
+    <section class="section builder">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Interactive Selector</span>
+                <h2>Ice Cream <span class="accent">Builder</span></h2>
+                <p>Select your preferred flavor, serving style, and toppings to visualize your custom combination.</p>
+            </div>
+            <div class="builder-wrapper">
+                <div class="builder-controls">
+                    <h3>Design Your Treat</h3>
+                    <p>Use the options below to explore different combinations.</p>
+                    
+                    <div class="builder-group">
+                        <label>Choose Flavor</label>
+                        <div class="options-grid" id="flavorOptions">
+                            <button class="option-btn active" data-type="flavor" data-value="Vanilla">Vanilla</button>
+                            <button class="option-btn" data-type="flavor" data-value="Chocolate">Chocolate</button>
+                            <button class="option-btn" data-type="flavor" data-value="Strawberry">Strawberry</button>
+                            <button class="option-btn" data-type="flavor" data-value="Mango">Mango</button>
+                            <button class="option-btn" data-type="flavor" data-value="Pistachio">Pistachio</button>
+                            <button class="option-btn" data-type="flavor" data-value="Caramel">Caramel</button>
+                            <button class="option-btn" data-type="flavor" data-value="Cookies & Cream">Cookies & Cream</button>
+                        </div>
+                    </div>
+
+                    <div class="builder-group">
+                        <label>Choose Serving Type</label>
+                        <div class="options-grid" id="servingOptions">
+                            <button class="option-btn active" data-type="serving" data-value="Cone">Cone</button>
+                            <button class="option-btn" data-type="serving" data-value="Cup">Cup</button>
+                            <button class="option-btn" data-type="serving" data-value="Sundae">Sundae</button>
+                        </div>
+                    </div>
+
+                    <div class="builder-group">
+                        <label>Choose Topping</label>
+                        <div class="options-grid" id="toppingOptions">
+                            <button class="option-btn active" data-type="topping" data-value="Chocolate Drizzle">Chocolate</button>
+                            <button class="option-btn" data-type="topping" data-value="Colorful Sprinkles">Sprinkles</button>
+                            <button class="option-btn" data-type="topping" data-value="Crushed Nuts">Nuts</button>
+                            <button class="option-btn" data-type="topping" data-value="Cookie Crumbs">Cookie Crumbs</button>
+                            <button class="option-btn" data-type="topping" data-value="Caramel Sauce">Caramel</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="builder-preview">
+                    <h3 class="preview-title">Your Ice Cream Choice</h3>
+                    <div class="preview-display-card">
+                        <div class="preview-item">
+                            <span class="preview-label">Selected Flavor:</span>
+                            <span class="preview-value" id="previewFlavor">Vanilla</span>
+                        </div>
+                        <div class="preview-item">
+                            <span class="preview-label">Serving Style:</span>
+                            <span class="preview-value" id="previewServing">Cone</span>
+                        </div>
+                        <div class="preview-item">
+                            <span class="preview-label">Topping:</span>
+                            <span class="preview-value" id="previewTopping">Chocolate Drizzle</span>
+                        </div>
+                    </div>
+                    <p style="margin-top: 1.5rem; font-size: 0.82rem; color: var(--text-muted); line-height: 1.6;">*Interactive preview tool. Selections represent general options and do not imply confirmed inventory.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visual Showcase</span>
+                <h2>Ice Cream <span class="accent">Gallery</span></h2>
+                <p>Take a visual journey through our delicious scoops, cones, sundaes, and preparation displays.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-index="0">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="Colorful ice cream scoops">
+                    <div class="gallery-overlay"><span>View Large</span></div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=800&q=80" alt="Vanilla ice cream cup">
+                    <div class="gallery-overlay"><span>View Large</span></div>
+                </div>
+                <div class="gallery-item" data-index="5">
+                    <img src="https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=800&q=80" alt="Mango ice cream bowl">
+                    <div class="gallery-overlay"><span>View Large</span></div>
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80" alt="Pistachio ice cream serving">
+                    <div class="gallery-overlay"><span>View Large</span></div>
+                </div>
+                <div class="gallery-item" data-index="7">
+                    <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80" alt="Ice cream sundae with toppings">
+                    <div class="gallery-overlay"><span>View Large</span></div>
+                </div>
+                <div class="gallery-item" data-index="8">
+                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80" alt="Ice cream shop counter display">
+                    <div class="gallery-overlay"><span>View Large</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="section why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2>The Sweet Gelato <span class="accent">Experience</span></h2>
+                <p>Discover what makes our ice cream destination special.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">🍨</div>
+                    <h3>Ice-Cream-Focused Selection</h3>
+                    <p>Dedicated solely to frozen desserts, scoops, cones, and sundaes.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🌟</div>
+                    <h3>Variety of Flavors</h3>
+                    <p>A broad spectrum of delicious fruit, nut, and chocolate flavors.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🍦</div>
+                    <h3>Scoops, Cones & Cups</h3>
+                    <p>Flexible serving options to fit your exact preference.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">✨</div>
+                    <h3>Attractive Presentation</h3>
+                    <p>Carefully served and garnished ice cream treats.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🔍</div>
+                    <h3>Interactive Flavor Selection</h3>
+                    <p>Explore your favorite flavor combinations directly on our website.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">📍</div>
+                    <h3>Easy Location Information</h3>
+                    <p>Conveniently situated in Abuzar Ghaffari Colony, Karachi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Got Questions?</span>
+                <h2>Frequently Asked <span class="accent">Questions</span></h2>
+                <p>Find answers to common inquiries about our ice cream and offerings.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What types of ice cream can I explore?</span>
+                        <div class="faq-icon-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can explore a wide variety of ice cream types, including classic vanilla, rich chocolate, fruity strawberry and mango, nutty pistachio, and specialty sundaes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What flavors can I inquire about?</span>
+                        <div class="faq-icon-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can inquire about any of our featured flavors such as vanilla, chocolate, strawberry, mango, pistachio, caramel, cookies & cream, and kulfi-inspired options.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I choose a cone, cup or sundae?</span>
+                        <div class="faq-icon-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer multiple serving styles including crispy cones, convenient cups, and delicious layered sundaes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Where is Sweet Gelato located?</span>
+                        <div class="faq-icon-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sweet Gelato is located in Abuzar Ghaffari Colony, Karachi, Pakistan.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I ask about a specific flavor?</span>
+                        <div class="faq-icon-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can use our inquiry form on the website to send questions regarding any specific flavor or serving requirement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT (STRICTLY ZERO IMAGES) -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visit Us & Inquire</span>
+                <h2>Get In Touch With <span class="accent">Sweet Gelato</span></h2>
+                <p>We are ready to answer your ice cream inquiries and welcome you to our shop.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <h3>Location & Visit</h3>
+                    <p>Stop by or send an inquiry to experience our delicious ice cream selection.</p>
+                    <div class="info-item-group">
+                        <div class="info-row">
+                            <div class="info-icon-box">🏢</div>
+                            <div>
+                                <h4>Business Name</h4>
+                                <p>Sweet Gelato</p>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon-box">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:03009234199">0300 9234199</a></p>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon-box">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Abuzar Ghaffari Colony, Karachi, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-icon-box">🍨</div>
+                            <div>
+                                <h4>Focus</h4>
+                                <p>Ice Cream, Scoops, Cones & Sundaes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inquiry-form-card">
+                    <h3>Ice Cream Inquiry Form</h3>
+                    <p>Fill out the form below to submit your flavor and serving inquiries.</p>
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferredFlavor">Preferred Flavor</label>
+                            <select id="preferredFlavor" class="form-control" required>
+                                <option value="" disabled selected>Select preferred flavor</option>
+                                <option value="Vanilla">Vanilla</option>
+                                <option value="Chocolate">Chocolate</option>
+                                <option value="Strawberry">Strawberry</option>
+                                <option value="Mango">Mango</option>
+                                <option value="Pistachio">Pistachio</option>
+                                <option value="Caramel">Caramel</option>
+                                <option value="Cookies & Cream">Cookies & Cream</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="servingType">Serving Type</label>
+                            <select id="servingType" class="form-control" required>
+                                <option value="" disabled selected>Select serving type</option>
+                                <option value="Cone">Cone</option>
+                                <option value="Cup">Cup</option>
+                                <option value="Sundae">Sundae</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Write your inquiry message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-coral" style="width: 100%;">Submit Inquiry</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for Something <span class="accent">Cool?</span></h2>
+                <p>Explore our premium ice cream flavors, cones, and sundaes today at Sweet Gelato in Abuzar Ghaffari Colony, Karachi.</p>
+                <div class="cta-buttons">
+                    <a href="#flavors" class="btn btn-white">Explore Ice Cream</a>
+                    <a href="#contact" class="btn btn-outline" style="border-color: white; color: white;">Visit Sweet Gelato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <div class="brand-mark">🍦</div>
+                        Sweet <span>Gelato</span>
+                    </div>
+                    <p>Your premier destination for delicious ice cream scoops, cones, cups, and sundaes in Abuzar Ghaffari Colony, Karachi.</p>
+                    <div class="footer-location-badge">
+                        📍 Abuzar Ghaffari Colony, Karachi, Pakistan
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#flavors">Flavors</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Flavors & Products</h4>
+                    <ul>
+                        <li><a href="#flavors">Vanilla & Chocolate</a></li>
+                        <li><a href="#flavors">Strawberry & Mango</a></li>
+                        <li><a href="#products">Scoops & Cones</a></li>
+                        <li><a href="#products">Sundaes & Toppings</a></li>
+                        <li><a href="#products">Takeaway</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Sweet Gelato. All rights reserved.</p>
+                <p>Abuzar Ghaffari Colony, Karachi, Pakistan</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="Enlarged ice cream gallery view">
+        </div>
+    </div>
+
+    <script>
+        // Dynamic Current Year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Navbar Scroll Effect & Active Link
+        const navbar = document.getElementById('navbar');
+        const backToTop = document.getElementById('backToTop');
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+                backToTop.classList.add('active');
+            } else {
+                navbar.classList.remove('scrolled');
+                backToTop.classList.remove('active');
+            }
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (window.scrollY >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinksContainer = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('active');
+            const svg = hamburger.querySelector('svg');
+            if (navLinksContainer.classList.contains('active')) {
+                svg.innerHTML = '<path d="M18.3 5.71L12 12l6.3 6.29-1.41 1.42L10.59 13.41 4.29 19.71 2.88 18.3 9.17 12 2.88 5.71 4.29 4.29 10.59 10.59 16.88 4.29z"/>';
+            } else {
+                svg.innerHTML = '<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>';
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinksContainer.classList.remove('active');
+                hamburger.querySelector('svg').innerHTML = '<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>';
+            });
+        });
+
+        // Back to Top
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Ice Cream Builder
+        const builderState = {
+            flavor: 'Vanilla',
+            serving: 'Cone',
+            topping: 'Chocolate Drizzle'
+        };
+
+        const flavorBtns = document.querySelectorAll('#flavorOptions .option-btn');
+        const servingBtns = document.querySelectorAll('#servingOptions .option-btn');
+        const toppingBtns = document.querySelectorAll('#toppingOptions .option-btn');
+
+        const previewFlavor = document.getElementById('previewFlavor');
+        const previewServing = document.getElementById('previewServing');
+        const previewTopping = document.getElementById('previewTopping');
+
+        function setupSelector(buttons, category) {
+            buttons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    buttons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    builderState[category] = btn.getAttribute('data-value');
+                    if (category === 'flavor') previewFlavor.textContent = builderState.flavor;
+                    if (category === 'serving') previewServing.textContent = builderState.serving;
+                    if (category === 'topping') previewTopping.textContent = builderState.topping;
+                });
+            });
+        }
+
+        setupSelector(flavorBtns, 'flavor');
+        setupSelector(servingBtns, 'serving');
+        setupSelector(toppingBtns, 'topping');
+
+        // Gallery Lightbox
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const lightboxModal = document.getElementById('lightboxModal');
+        const lightboxImg = document.getElementById('lightboxImg');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+
+        let currentImageIndex = 0;
+        const galleryImagesSrc = Array.from(galleryItems).map(item => item.querySelector('img').src);
+
+        function openLightbox(index) {
+            currentImageIndex = index;
+            lightboxImg.src = galleryImagesSrc[currentImageIndex];
+            lightboxModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            lightboxModal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => openLightbox(index));
+        });
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxModal.addEventListener('click', (e) => {
+            if (e.target === lightboxModal) closeLightbox();
+        });
+
+        lightboxPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentImageIndex = (currentImageIndex - 1 + galleryImagesSrc.length) % galleryImagesSrc.length;
+            lightboxImg.src = galleryImagesSrc[currentImageIndex];
+        });
+
+        lightboxNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentImageIndex = (currentImageIndex + 1) % galleryImagesSrc.length;
+            lightboxImg.src = galleryImagesSrc[currentImageIndex];
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+            if (lightboxModal.classList.contains('active')) {
+                if (e.key === 'ArrowLeft') lightboxPrev.click();
+                if (e.key === 'ArrowRight') lightboxNext.click();
+            }
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                faqItems.forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+
+        // Inquiry Form
+        const inquiryForm = document.getElementById('inquiryForm');
+        const formMessage = document.getElementById('formMessage');
+
+        inquiryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const flavor = document.getElementById('preferredFlavor').value;
+            const serving = document.getElementById('servingType').value;
+
+            if (!name || !flavor || !serving) {
+                formMessage.textContent = 'Please fill in all required fields.';
+                formMessage.style.backgroundColor = '#FCE8EC';
+                formMessage.style.color = '#E05C3E';
+                formMessage.style.border = '1px solid #FF7A5C';
+                formMessage.classList.add('success');
+                return;
+            }
+
+            formMessage.textContent = 'Your inquiry details have been prepared. Please contact Sweet Gelato directly at Abuzar Ghaffari Colony, Karachi.';
+            formMessage.style.backgroundColor = '#E6F4EA';
+            formMessage.style.color = '#137333';
+            formMessage.style.border = '1px solid #CEEAD6';
+            formMessage.classList.add('success');
+
+            inquiryForm.reset();
+        });
+    </script>
+</body>
+</html>
